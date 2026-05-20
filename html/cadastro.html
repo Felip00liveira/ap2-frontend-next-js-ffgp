@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>É novo por aqui? Cadastre-se abaixo</h1>
+        <p>
+            Para começar a utilizar nosso sistema, preencha o formulário abaixo com suas informações.
+            Esses dados serão utilizados para criar sua conta e permitir acesso às ferramentas da plataforma.
+        </p>
+    </div>
+
+    <form class="form" id="formCadastro">
+
+        <div class="row">
+            <div class="input-group">
+                <label>Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="input-group">
+                <label>Telefone</label>
+                <input type="tel" placeholder="DDD (Telefone)" id="telefone" required>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>CPF</label>
+            <input type="text" id="cpf" required>
+        </div>
+
+        <div class="input-group">
+            <label>E-mail</label>
+            <input type="email"  id="email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Senha</label>
+            <input type="password"  id="senha" required>
+        </div>
+
+            <div class="regras">
+                <p>A senha deve conter no mínimo 8 caracteres</p>
+                <p>A senha deve possuir pelo menos 1 letra maiúscula</p>
+                <p>A senha deve possuir pelo menos 1 número</p>
+            </div>
+        </div>
+
+        <input type="password" id="confirmarSenha" required>
+            <label>Confirmar Senha</label>
+            <input type="password" required>
+        </div>
+
+        <div class="buttons">
+            <button onclick="window.location.href = 'login.html' " class="btn login">Login</button>
+            <button type="button" class="btn login">Login</button>
+            <button type="submit" class="btn cadastrar">Cadastre-se</button>
+        </div>
+
+    </form>
+
+</div>
+
+<script src="cadastro.js"></script>
+
+</body>
+</html>

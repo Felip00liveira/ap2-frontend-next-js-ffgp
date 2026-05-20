@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    width: 800px;
+    background: #eee;
+}
+
+.header h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+
+.form {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #999;
+    font-size: 16px;
+}
+
+/* SENHA REGRAS */
+
+.regras {
+    margin-top: 10px;
+}
+
+.regras p {
+    color: red;
+    font-size: 14px;
+}
+
+/* BOTÕES */
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.login {
+    background-color: #2ecc71;
+}
+
+.cadastrar {
+    background-color: #2ecc71;
+}
